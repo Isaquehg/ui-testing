@@ -34,6 +34,10 @@ The [target website](https://demo-login-pi.vercel.app/) is in the following repo
 ```
     npx cypress open
 ```
+4. Done the tests, you can generate the reports by closing the server, then running:
+```
+    npx cypress run --spec 'cypress/e2e/**/'
+```
 
 ## Tests
 For this project, 6 test cases were developed inside the Suite:
