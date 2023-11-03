@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-describe('Cenário de Testes de UI', () => {
+describe('Tests Scene de UI', () => {
   it('Not registered', () => {
     cy.visit('https://demo-login-pi.vercel.app/')
     cy.get('#username').type("Invalid username")
